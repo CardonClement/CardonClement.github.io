@@ -1,0 +1,31 @@
+baseURL = 'https://CardonClement.github.io/'
+languageCode = 'fr-fr'
+title = 'Mon e-portfolio'
+theme = 'iutdelens'
+
+[[menu.main]] 
+  name = "À propos" 
+  url = "/a-propos-de" 
+ 
+[[menu.main]] 
+  name = "Blog" 
+  url = "/blog"
+
+[[menu.footer]] 
+  name = "À propos" 
+  url = "/a-propos-de"
+
+[[menu.social]] 
+  name = "GitHub" 
+  url = "https://github.com/VotreCompteGithub" 
+  pre = "<i class='fab fa-github'></i>" 
+ 
+ 
+[[menu.social]] 
+  name = "Twitter" 
+  url = "https://twitter.com/VotreCompteTwitter" 
+  pre = "<i class='fab fa-twitter'></i>"
+
+[params]
+ author="CardonClement"
+ authorImage="/images/mon_avatar.png"
